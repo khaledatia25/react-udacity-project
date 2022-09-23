@@ -6,9 +6,11 @@
 - You can search and add other books in search page.
 
 ## Clone project
-```git clone https://github.com/khaledatia25/react-udacity-project.git
+```
+git clone https://github.com/khaledatia25/react-udacity-project.git 
 ```
 
 ## Install and Launch
+
 ```npm install
 npm start```
