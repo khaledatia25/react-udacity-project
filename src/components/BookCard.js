@@ -17,6 +17,7 @@ export default ({book, changeShelf}) => {
     return (
     
         <li>
+        
                      <div className="book">
                         <div className="book-top">
                           <div
@@ -37,8 +38,8 @@ export default ({book, changeShelf}) => {
                             }}
                           ></div>
                           <div className="book-shelf-changer">
-                            <select value={shelf} onChange={(e) => onChangeShelf(e)}>
-                              <option value="none" disabled>
+                            <select value={!!shelf?shelf:"none"} onChange={(e) => onChangeShelf(e)}>
+                              <option  disabled>
                                 Move to...
                               </option>
                               <option value="currentlyReading" >
