@@ -12,5 +12,7 @@ git clone https://github.com/khaledatia25/react-udacity-project.git
 
 ## Install and Launch
 
-```npm install
-npm start```
+```
+npm install
+npm start
+```
